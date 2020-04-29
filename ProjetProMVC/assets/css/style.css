@@ -1,0 +1,256 @@
+.equipe-compo {
+
+  background-image: url(../img/img-index.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+
+}
+.login{
+  background-image: url(../img/bg-login.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+
+}
+.actu-img-hover{
+  filter: sepia(70%);
+}
+.actu-img-hover:hover{
+  filter: sepia(1%);
+  
+}
+.logo-lamanage {
+  color: #e0dfdc;
+background: #556677;
+letter-spacing: .1em;
+text-shadow: 3px 4px 5px rgba(0,0,0,0.81);
+-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+.logo-lamanage:hover{
+  background: #0f2133;
+  color: #ffffff;
+}
+
+.badge{
+  color: black !important;
+}
+.bg-admin{
+  background-image: url(../img/bg-admin.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+.trainingResultMAJ{
+  background-image: url(../img/bg-maj.jpg);
+  background-size: cover;
+  
+}
+.modal_cursor{
+  cursor: help;
+}  
+
+.IconLog {
+  font-size: 6rem;
+  color: rgb(195, 246, 202);
+}
+
+.main-color {
+  color: rgb(195, 246, 202);
+}
+
+.main-bg-color {
+  background-color: rgb(195, 246, 202);
+  -webkit-box-shadow: inset 0px 0px 52px -30px rgb(152, 209, 162);
+-moz-box-shadow: inset 0px 0px 52px -30px rgba(152, 209, 162);
+box-shadow: inset 0px 0px 52px -30px rgba(152, 209, 162);
+}
+.bg-login{
+  background-color: rgba(23, 24, 23, 0.5);
+}
+.bg-input-login{
+  background-color: rgba(123, 129, 123, 0.7);
+}
+
+li
+{
+list-style-type: none;
+}
+
+.bestG-P {
+  content: url(../img/kingBP.png);
+}
+
+
+.avatar-compo{
+  background-color: rgba(131, 125, 125, 0.5);
+  
+}
+
+.slideUpDown-compo{
+cursor: pointer;
+}
+
+.pointeur{
+  cursor: pointer;
+  }
+
+
+
+.avatar-compo-for-player {
+  background-color: rgba(123, 129, 123, 0.5);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.hr-under-convocation{
+  border-top: 2px solid rgb(158, 189, 189);
+  width: 25rem;
+}
+.nav-trainingResult{
+  cursor: not-allowed;
+}
+/*----------------------------- scroll bar------------------------ */
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(88, 184, 132); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(120, 144, 122); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(45, 59, 46); 
+}
+
+body ::-webkit-scrollbar {
+  background: transparent none;
+}
+/* ---------------------fin scroll bar--------------------- */
+
+.card-actu {
+  background-color: rgb(205, 251, 209);
+}
+
+.card-actu-title {
+  color: rgb(38, 100, 22);
+}
+
+
+.card-player{
+  width: 15rem;
+}
+
+.actu-card-size{
+  height: 30rem;
+  overflow: auto;
+}
+
+.text-navbar{
+  color: #606f81 !important;
+  font-size: large;
+  font-weight: bolder;
+}
+.text-navbar:hover{
+  color:rgb(116, 143, 119) !important;
+  font-size: x-large; 
+}
+.card-equipe-size{
+  height:8.5rem ;
+  width: 8.5rem;
+}
+/* pour que les card ne prennent pas tt la page et ce scroll */
+.card-player-sizeForScroll{
+  height: 25rem;
+  overflow: auto;
+}
+
+.picture_profil{
+  width: 15rem;
+  height: 12rem;
+}
+ .profil-player-stats-info{
+  background-color:rgb(116, 143, 119, .4) !important;
+  
+ }
+.edit-player-bg{
+  background-color:rgba(36, 36, 36) !important;
+}
+.size-img-admin{
+  width: 30rem;
+  height: 30rem;
+}
+
+/* popovers equipe actu  */
+
+#create-pop,
+#edit-pop,
+#delete-pop{
+  cursor: pointer;
+}
+
+.MoreLess{
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.bg-equipe_field{
+  background-image: url(../img/game-field.png) center;
+
+background-color: #3cb931;
+margin: 3rem;
+border-radius: 1.5rem;
+width: auto;
+height: auto;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
